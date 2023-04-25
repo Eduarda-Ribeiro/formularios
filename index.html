@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Mundarte
+        </title>
+        <meta UTF="8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="mystyle.css">
+    </head>
+    <body>
+        <main>
+           <h1>Seleção de Instrutores para CIA de artes 'Mundarte'</h1>
+           <form method="post">
+              <fieldset>
+                <h3>Informações Pessoias:</h3><br>
+                 <label>Nome Completo:</label>
+                 <input type="text" id="nome" name="nome" required><br>
+                 <label>RG:</label>
+                 <input type="number" id="registro" name="registro" required><br>
+                 <label>CPF:</label>
+                 <input type="number" id="cpf" name="cpf" required><br>
+                 <label>Data de nascimento:</label>
+                 <input type="date" id="data" name="data" required><br><br>
+              </fieldset>
+              <br>
+              <fieldset>
+                <h3>Informações Profissionais:</h3><br>
+                 <label>Telefone para contato:</label>
+                 <input type="tel" id="tel" name="tel" required><br>
+                 <label>Poderia nos informar um telefone reserva?</label>
+                 <input type="tel" id="tel2" name="tel2"><br>
+                 <label>Email para contato:</label>
+                 <input type="email" id="email" name="email" required><br><br><br>
+                
+                 <label>Selecione a vaga desejada: </label>
+                 <input list="vagas">
+                 <datalist id="vagas">
+                    <option>Instrutor de Danças Urbanas</option>
+                    <option>Instrutor de Ballet Clássico</option>
+                    <option>Instrutor de Dança Conteporânea</option>
+                    <option>Instrutor de Acrobacias</option>
+                    <option>Instrutor de Jazz</option>
+                    <option>Instrutor de Musicalização</option>
+                    <option>Operador de Audiovisual</option>
+                    <option>Instrutor de Teatro</option>
+                 </datalist><br><br><br>
+
+                 <label>Descreva um pouco sobre suas experiências profissionais na área desejada:</label><br>
+                 <textarea name="experiencia"></textarea><br><br>
+
+                 <label>Por que gostaria de trabalhar conosco?</label><br>
+                 <textarea name="sobre" rows="10" cols="30"></textarea><br><br>
+
+                <p>Resultado da seletiva: 30/04.</p>
+                <p>Ficamos felizes com sua inscrição, boa sorte!</p>
+
+                 <input type="submit">
+              </fieldset>
+          </form>
+        </main>
+    </body>
+</html>

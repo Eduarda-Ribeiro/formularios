@@ -1,0 +1,76 @@
+body {
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(236, 236, 176);
+    /*background-color: black;*/
+    background-image: url("https://cdn.vectorstock.com/i/preview-1x/26/80/colorful-metaverse-cyber-abstract-urban-street-art-vector-41332680.jpg");
+    background-size: 50%;
+    /*background-image: url("https://cdn.vectorstock.com/i/preview-1x/13/08/abstract-urban-street-art-graffiti-style-vector-42361308.jpg");*/
+}
+label {
+    font-size: large;
+    font-style: italic;
+}
+p {
+    font-style: italic;
+    font-size: large;
+}
+main {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 550px;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: rgb(73, 15, 128);
+    text-align: center;
+}
+input[type=text], input[type=number], input[type=date], input[type=tel], input[type=email] {
+    border-radius: 8px;
+    border:none;
+    width: 75%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    outline: none;
+}
+input[type=text]:focus, input[type=number]:focus, input[type=date]:focus, input[type=tel]:focus, input[type=email]:focus, input[list=vagas]:focus {
+    border: 3px solid rgb(81, 204, 198);
+    background-color: rgb(250, 203, 48);
+}
+input[list=vagas]{
+    border-radius: 8px;
+    width: 75%;
+    border: none;
+    padding: 12px 15px;
+    box-sizing: border-box;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    outline: none;
+}
+textarea {
+    border-radius: 8px;
+    width: 85%;
+    height: 150px;
+    padding: 15px;
+    resize: none;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+textarea:focus {
+    border: 3px solid rgb(81, 204, 198);
+    background-color: rgb(250, 203, 48);
+}
+input[type=submit]{
+    border: 3px solid rgb(57, 202, 166);
+    border-radius: 10px;
+    background-color: rgb(250, 203, 48);
+    padding: 8px 5px;
+    display: inline-block;
+    width: 25%;
+    height: 10%;
+}
